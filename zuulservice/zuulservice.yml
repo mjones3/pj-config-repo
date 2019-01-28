@@ -1,6 +1,7 @@
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.registrationservice: /registration/**
+zuul.routes.registrationservice.ribbon.listOfServers: http://registrationservice:8082
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
